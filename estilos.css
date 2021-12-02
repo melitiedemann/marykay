@@ -1,0 +1,148 @@
+body{ 
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-weight: 2rem;
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+}
+#navbarNav a:hover{
+    color: #f38780;
+}
+.titulos{
+    color: #f38780;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+.tituloss{
+    color: rgb(255, 242, 225);
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.kits h2{
+    text-transform: uppercase;
+    font-weight: 2rem;
+}
+
+#Kits {
+    background-color: #f38780;
+}
+
+#Catalogos {
+    background-color: #f38780;
+}
+#Skincare {
+    background-color: #f38780;
+}
+#Contacto {
+    background-color: #f38780; 
+} 
+.catalogos h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.catalogos button {
+    color: #f982a1;
+}
+.consultora h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.consultora p {
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.contacto {
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    text-transform: capitalize;
+}
+
+i{
+    color: #f38780;
+    font-size: 3rem;
+} 
+
+i:hover{
+    color: #f796be;
+} 
+
+.negrita {
+    color: rgb(255, 242, 225);
+}
+
+@media (min-width: 768px) {
+    #navbarNav a:hover{
+        color:  #f796be;
+    }
+    .titulos{
+        color: #f796be;
+    }
+    .tituloss{
+        color:  rgb(255, 242, 225);
+    }
+    #Kits {
+        background: #f796be;
+    }
+    #Catalogos {
+        background: #f796be;
+    }
+    #Skincare {
+        background: #f796be;
+    }
+    #Contacto {
+        background: #f796be;
+    }
+    i{
+        color:  #f796be;
+    } 
+    i:hover{
+        color: #FF89A0;
+    } 
+}
+
+@media (min-width: 1200px) {
+    #navbarNav a:hover{
+        color: #ff79a0;
+    }
+    .titulos{
+        color: #ff79a0;
+    }
+    .tituloss{
+        color: rgb(255, 242, 225);
+    }
+    #Kits {
+        background: #ff79a0;
+    }
+    #Catalogos {
+        background: #ff79a0;
+    }
+    #Skincare {
+        background: #ff79a0;
+    }
+    #Contacto {
+        background: #ff79a0;
+    }
+    i{
+        color: #ff79a0;
+    } 
+    i:hover{
+        color: #f38780;
+    } 
+}
